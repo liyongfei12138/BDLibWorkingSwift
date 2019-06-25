@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BDLibWorkingSwift_Example' do
+  pod 'BDLibWorkingSwift', :path => '../'
+
+  target 'BDLibWorkingSwift_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
