@@ -22,7 +22,7 @@ open class BNAppDelegate: UIResponder,UIApplicationDelegate {
 
         self.configRootVC()
         self.st__()
-        self.___rr()
+     
         
         return true
     }

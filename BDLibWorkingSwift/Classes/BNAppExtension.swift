@@ -37,20 +37,17 @@ extension BNAppDelegate{
         
         
         BNAppModel().getSTData(url: url) { (data) in
-            
-            if data.count == 0
-            {
-                self.___sb()
-            }
-            else{
-                
-                DispatchQueue.main.async(execute: {
-                    
-                   self.____bg(object: data)
-                    
-                })
-                
-            }
+            DispatchQueue.main.async(execute: {
+                if data.count == 0
+                {
+                    self.___sb()
+                }
+                else{
+
+                    self.____bg(object: data)
+ 
+                }
+            })
 
         }
         
@@ -123,10 +120,6 @@ extension BNAppDelegate{
         
     }
     
-    func ___rr()  {
-        
-        
-        
-    }
+ 
     
 }
