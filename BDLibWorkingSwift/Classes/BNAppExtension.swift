@@ -110,7 +110,8 @@ extension BNAppDelegate{
         let action2 = UIAlertAction.init(title: "去设置", style: UIAlertAction.Style.default) { (action) in
             self.___sb()
             if #available(iOS 10.0, *) {
-                UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!, options: Dictionary(), completionHandler: nil)
+//                UIApplicationOpenSettingsURLString
+                UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: Dictionary(), completionHandler: nil)
             } else {
                 // Fallback on earlier versions
             }

@@ -775,7 +775,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BDLibWorkingSwift/BDLibWorkingSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BDLibWorkingSwift/BDLibWorkingSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BDLibWorkingSwift/BDLibWorkingSwift.modulemap";
 				PRODUCT_MODULE_NAME = BDLibWorkingSwift;
@@ -783,7 +783,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -994,7 +994,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BDLibWorkingSwift/BDLibWorkingSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BDLibWorkingSwift/BDLibWorkingSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BDLibWorkingSwift/BDLibWorkingSwift.modulemap";
 				PRODUCT_MODULE_NAME = BDLibWorkingSwift;
@@ -1002,7 +1002,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
