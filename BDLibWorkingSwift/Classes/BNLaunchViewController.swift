@@ -61,6 +61,7 @@ class BNLaunchViewController: UIViewController {
         
         self.imageView.isUserInteractionEnabled = true
         self.imageView.image = self.launchImage
+        self.imageView.contentMode = .scaleAspectFill
         self.view.addSubview(self.imageView)
         
         // Do any additional setup after loading the view.
