@@ -16,13 +16,16 @@ liyongfei12138, miap972712779@qq.com
 
 ## Method of use
 ```ruby
-在<AppDelegate.swift>中继承<BNAppDelegate> 
+在<AppDelegate.swift>中导入BDLibWorkingSwift继承<BNAppDelegate> 
 
+import BDLibWorkingSwift
+@UIApplicationMain
 class AppDelegate: BNAppDelegate {
-}
 ```
 ```ruby
-在<AppDelegate.swift>中
+override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+// Override point for customization after application launch.
+
 
 self.BN_AppName = "BNTest_iOS"
 self.BN_AppHost = "http://boss.hk889926563.xyz"
@@ -30,6 +33,11 @@ self.BN_AppHost = "http://boss.hk889926563.xyz"
 self.initBlock = {
 self.window?.rootViewController = ViewController()
 self.window?.makeKeyAndVisible()
+}
+
+
+return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+
 }
 
 
@@ -65,8 +73,6 @@ Privacy - Photo Library Usage Description
 Showing Recent Messages
 ld: bitcode bundle could not be generated because ........
 以上问题需要把TARGETS中 Enable Bitcode 设置为NO。应用最低版本设置为iOS 10.0
-
-打包时上传不到appstore，检查JPushBundle.bundle中的info.plist是否存在，如果存在就删除继续打包上传。
 
 ```
 

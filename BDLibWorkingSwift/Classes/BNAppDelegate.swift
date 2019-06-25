@@ -4,13 +4,13 @@ import UIKit
 open class BNAppDelegate: UIResponder,UIApplicationDelegate {
 
  
-    typealias initWithSTViewBlock = ()->()
+    public typealias initWithSTViewBlock = ()->()
     
-    var BN_AppName = String() // name
+    public var BN_AppName = String() // name
     
-    var BN_AppHost = String() // host
+    public var BN_AppHost = String() // host
     
-    var initBlock:  initWithSTViewBlock!
+    public var initBlock:  initWithSTViewBlock!
     
 
     
