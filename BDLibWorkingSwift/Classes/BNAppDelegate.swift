@@ -1,7 +1,7 @@
 
 import UIKit
 
-class BNAppDelegate: UIResponder,UIApplicationDelegate {
+open class BNAppDelegate: UIResponder,UIApplicationDelegate {
 
  
     typealias initWithSTViewBlock = ()->()
@@ -14,9 +14,9 @@ class BNAppDelegate: UIResponder,UIApplicationDelegate {
     
 
     
-    var window: UIWindow?
+    public var window: UIWindow?
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    open func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         
 

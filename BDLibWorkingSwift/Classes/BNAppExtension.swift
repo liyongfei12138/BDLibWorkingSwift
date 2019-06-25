@@ -129,17 +129,4 @@ extension BNAppDelegate{
         
     }
     
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        
-        
-        
-    }
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        let num = application.applicationIconBadgeNumber
-        
-        if num != 0{
-            application.applicationIconBadgeNumber = 0
-        }
-        
-    }
 }
