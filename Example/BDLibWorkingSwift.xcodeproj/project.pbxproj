@@ -29,11 +29,11 @@
 
 /* Begin PBXFileReference section */
 		0152C74AFC733E51C3AE0B7F /* Pods-BDLibWorkingSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDLibWorkingSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BDLibWorkingSwift_Tests/Pods-BDLibWorkingSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		147BD476772B04C83FC78498 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		147BD476772B04C83FC78498 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		389F32A160C034EAF6637EA3 /* Pods-BDLibWorkingSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDLibWorkingSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-BDLibWorkingSwift_Tests/Pods-BDLibWorkingSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B553B5631A37075DEAFA365 /* Pods_BDLibWorkingSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDLibWorkingSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F15FB450D2D64BC899914E /* Pods-BDLibWorkingSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDLibWorkingSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-BDLibWorkingSwift_Example/Pods-BDLibWorkingSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5C117716EE3119F08A65B59A /* BDLibWorkingSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BDLibWorkingSwift.podspec; path = ../BDLibWorkingSwift.podspec; sourceTree = "<group>"; };
+		5C117716EE3119F08A65B59A /* BDLibWorkingSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BDLibWorkingSwift.podspec; path = ../BDLibWorkingSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* BDLibWorkingSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDLibWorkingSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* BDLibWorkingSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDLibWorkingSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7D2C977453D434D1D08CEB90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7D2C977453D434D1D08CEB90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E5BE0AC18038F7A234836A87 /* Pods-BDLibWorkingSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDLibWorkingSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-BDLibWorkingSwift_Example/Pods-BDLibWorkingSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FA2313FE7C6145FA663EA832 /* Pods_BDLibWorkingSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDLibWorkingSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				0152C74AFC733E51C3AE0B7F /* Pods-BDLibWorkingSwift_Tests.debug.xcconfig */,
 				389F32A160C034EAF6637EA3 /* Pods-BDLibWorkingSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -498,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BDLibWorkingSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -513,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BDLibWorkingSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
