@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BDLibWorkingSwift/Classes/**/*'
   
+  if s.respond_to? 'swift_version'
+      s.swift_version = "4.2"
+  end
+  
   # s.resource_bundles = {
   #   'BDLibWorkingSwift' => ['BDLibWorkingSwift/Assets/*.png']
   # }
