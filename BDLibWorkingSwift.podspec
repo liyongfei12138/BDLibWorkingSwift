@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDLibWorkingSwift'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'DibWorkingSwift.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-s.swift.version = 5.0
+
   s.source_files = 'BDLibWorkingSwift/Classes/**/*'
   
   # s.resource_bundles = {
