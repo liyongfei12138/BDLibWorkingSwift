@@ -40,6 +40,7 @@
 		D782D51322C1F44500F5BB1E /* BNMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D50B22C1F44500F5BB1E /* BNMyViewController.swift */; };
 		D782D51422C1F44500F5BB1E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D50C22C1F44500F5BB1E /* Toast.swift */; };
 		D782D51522C1F44500F5BB1E /* BNImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D50D22C1F44500F5BB1E /* BNImage.swift */; };
+		D782D5EB22CB561A00F5BB1E /* BNProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D5EA22CB561A00F5BB1E /* BNProgressView.swift */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -122,6 +123,7 @@
 		D782D50B22C1F44500F5BB1E /* BNMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNMyViewController.swift; path = BDLibWorkingSwift/Classes/BNMyViewController.swift; sourceTree = "<group>"; };
 		D782D50C22C1F44500F5BB1E /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = BDLibWorkingSwift/Classes/Toast.swift; sourceTree = "<group>"; };
 		D782D50D22C1F44500F5BB1E /* BNImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNImage.swift; path = BDLibWorkingSwift/Classes/BNImage.swift; sourceTree = "<group>"; };
+		D782D5EA22CB561A00F5BB1E /* BNProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNProgressView.swift; path = BDLibWorkingSwift/Classes/BNProgressView.swift; sourceTree = "<group>"; };
 		D835425989B4CB95ADEBB56E3D9AB8D6 /* Pods-BDLibWorkingSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDLibWorkingSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		DD7F3128B35BAFA59236079C8B1DED9C /* BDLibWorkingSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDLibWorkingSwift.xcconfig; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -338,6 +340,7 @@
 				D782D50722C1F44400F5BB1E /* BNAppExtension.swift */,
 				D782D50A22C1F44400F5BB1E /* BNAppModel.swift */,
 				D782D50822C1F44400F5BB1E /* BNConfigTools.swift */,
+				D782D5EA22CB561A00F5BB1E /* BNProgressView.swift */,
 				D782D50D22C1F44500F5BB1E /* BNImage.swift */,
 				D782D50922C1F44400F5BB1E /* BNLaunchViewController.swift */,
 				D782D50B22C1F44500F5BB1E /* BNMyViewController.swift */,
@@ -584,6 +587,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D782D51322C1F44500F5BB1E /* BNMyViewController.swift in Sources */,
+				D782D5EB22CB561A00F5BB1E /* BNProgressView.swift in Sources */,
 				D782D50E22C1F44500F5BB1E /* BNAppDelegate.swift in Sources */,
 				D782D51122C1F44500F5BB1E /* BNLaunchViewController.swift in Sources */,
 				D782D50F22C1F44500F5BB1E /* BNAppExtension.swift in Sources */,
