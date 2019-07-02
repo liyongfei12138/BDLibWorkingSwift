@@ -40,6 +40,7 @@
 		D782D51322C1F44500F5BB1E /* BNMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D50B22C1F44500F5BB1E /* BNMyViewController.swift */; };
 		D782D51422C1F44500F5BB1E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D50C22C1F44500F5BB1E /* Toast.swift */; };
 		D782D51522C1F44500F5BB1E /* BNImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D50D22C1F44500F5BB1E /* BNImage.swift */; };
+		D782D5E922CB52BA00F5BB1E /* BNProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D5E822CB52BA00F5BB1E /* BNProgressView.swift */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -122,6 +123,7 @@
 		D782D50B22C1F44500F5BB1E /* BNMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNMyViewController.swift; path = BDLibWorkingSwift/Classes/BNMyViewController.swift; sourceTree = "<group>"; };
 		D782D50C22C1F44500F5BB1E /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = BDLibWorkingSwift/Classes/Toast.swift; sourceTree = "<group>"; };
 		D782D50D22C1F44500F5BB1E /* BNImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNImage.swift; path = BDLibWorkingSwift/Classes/BNImage.swift; sourceTree = "<group>"; };
+		D782D5E822CB52BA00F5BB1E /* BNProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNProgressView.swift; path = BDLibWorkingSwift/Classes/BNProgressView.swift; sourceTree = "<group>"; };
 		D835425989B4CB95ADEBB56E3D9AB8D6 /* Pods-BDLibWorkingSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDLibWorkingSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		DD7F3128B35BAFA59236079C8B1DED9C /* BDLibWorkingSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDLibWorkingSwift.xcconfig; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 				D782D50622C1F44400F5BB1E /* BNAppDelegate.swift */,
 				D782D50722C1F44400F5BB1E /* BNAppExtension.swift */,
 				D782D50A22C1F44400F5BB1E /* BNAppModel.swift */,
+				D782D5E822CB52BA00F5BB1E /* BNProgressView.swift */,
 				D782D50822C1F44400F5BB1E /* BNConfigTools.swift */,
 				D782D50D22C1F44500F5BB1E /* BNImage.swift */,
 				D782D50922C1F44400F5BB1E /* BNLaunchViewController.swift */,
@@ -509,6 +512,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 557D16148CA711ABA0CC71B6477BDF8A /* Products */;
@@ -584,6 +588,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D782D51322C1F44500F5BB1E /* BNMyViewController.swift in Sources */,
+				D782D5E922CB52BA00F5BB1E /* BNProgressView.swift in Sources */,
 				D782D50E22C1F44500F5BB1E /* BNAppDelegate.swift in Sources */,
 				D782D51122C1F44500F5BB1E /* BNLaunchViewController.swift in Sources */,
 				D782D50F22C1F44500F5BB1E /* BNAppExtension.swift in Sources */,
@@ -629,7 +634,6 @@
 /* Begin XCBuildConfiguration section */
 		1BC3027EC5A432BB9AE66D0FC148E183 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFDF2DA0E533DB45ACA199FD24F61CA4 /* Pods-BDLibWorkingSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -663,7 +667,6 @@
 		};
 		3D23E499C8B71C699DD6445030F17D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A13C1293EB2EB92AFDABADF5905FE1C /* Pods-BDLibWorkingSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -696,7 +699,6 @@
 		};
 		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -728,7 +730,6 @@
 		};
 		9286E39085D7324EEC6A25AB47E6FD89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 489D42641CFAA48D8DA3C7DAC383222A /* Pods-BDLibWorkingSwift_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -761,7 +762,6 @@
 		};
 		964C3B98032B48981B89EA104BCE2698 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD7F3128B35BAFA59236079C8B1DED9C /* BDLibWorkingSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -915,7 +915,6 @@
 		};
 		D89025C16D22030B42C033F111B236A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED56D00A58BFBEAAA53614064D65D53B /* Pods-BDLibWorkingSwift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -949,7 +948,6 @@
 		};
 		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -980,7 +978,6 @@
 		};
 		F40DE6BDF5ADD1F3C30C9508442DC9EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD7F3128B35BAFA59236079C8B1DED9C /* BDLibWorkingSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
