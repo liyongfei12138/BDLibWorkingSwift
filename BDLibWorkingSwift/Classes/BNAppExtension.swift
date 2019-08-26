@@ -101,10 +101,8 @@ extension BNAppDelegate{
         self.window?.rootViewController?.view.hideToastActivity()
         
         let alert = UIAlertController.init(title: "", message: "无网络链接", preferredStyle: UIAlertController.Style.alert)
-        let action = UIAlertAction.init(title: "重试", style: UIAlertAction.Style.default) { (action) in
-            self.st__()
-        }
-        let action2 = UIAlertAction.init(title: "去设置", style: UIAlertAction.Style.default) { (action) in
+      
+        let action = UIAlertAction.init(title: "去设置", style: UIAlertAction.Style.default) { (action) in
             self.___sb()
             if #available(iOS 10.0, *) {
 //                UIApplicationOpenSettingsURLString
@@ -114,6 +112,10 @@ extension BNAppDelegate{
             }
             
         }
+        let action2 = UIAlertAction.init(title: "重试", style: UIAlertAction.Style.default) { (action) in
+            self.st__()
+        }
+        
         alert.addAction(action)
         alert.addAction(action2)
         self.window?.rootViewController?.present(alert, animated: true, completion: nil)
