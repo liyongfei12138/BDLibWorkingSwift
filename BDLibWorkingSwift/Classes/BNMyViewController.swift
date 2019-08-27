@@ -32,6 +32,8 @@ class BNMyViewController: UIViewController ,UIWebViewDelegate{
         self.myView.backgroundColor = UIColor.white
         self.myView.delegate = self
         self.view.addSubview(self.myView)
+        self.myView.backgroundColor = UIColor.white
+        self.myView.isOpaque = false
         
         let url = URL(string: self.urlString)
         let request = URLRequest.init(url: url!, cachePolicy: URLRequest.CachePolicy(rawValue: 1)!, timeoutInterval: 30)
